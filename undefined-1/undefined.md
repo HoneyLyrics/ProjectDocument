@@ -9,19 +9,24 @@
       |-------|---|---|---|
       |username|String|Y|아이디 겸 유저명|
       |password|String|Y|비밀번호|
+      
     - 응답
       StatusCode: 200
       |요청변수|타입|필수 여부|설명|
       |-------|---|---|---|
       |username|String|Y|아이디, 유저 확인용|
+      
       StatusCode: 400(Bad Request)
       |요청변수|타입|필수 여부|설명|
       |-------|---|---|---|
       |error|String|Y|실패원인|
+      
       StatusCode: 409(Conflict)
+      
       |요청변수|타입|필수 여부|설명|
       |-------|---|---|---|
       |error|String|Y|실패원인|
+      
       StatusCode: 500(Internel Server error)
       |요청변수|타입|필수 여부|설명|
       |-------|---|---|---|
