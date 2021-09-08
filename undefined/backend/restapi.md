@@ -1,10 +1,8 @@
 # RestAPI 명세
 
-
-
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="https://honeylyrics.herokuapp.com/api/auth/check" path="" %}
 {% api-method-summary %}
-
+Sessing Check API
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -13,11 +11,21 @@
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-headers %}
+{% api-method-parameter name="Cookie" type="string" required=false %}
+Cooke for 
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="password" type="string" required=true %}
+password
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="username" type="string" required=true %}
+user name
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -27,10 +35,12 @@
 {% endapi-method-response-example-description %}
 
 ```
-
+username: username
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+## 2. 로그인 Rest API
 
