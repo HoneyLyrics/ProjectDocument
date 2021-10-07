@@ -29,7 +29,7 @@ description: Honey Lyrics의 전체 화면을 확인할 수 있음
 3. **가사**에 대해서 확인할 수 있음 
 4. **펼쳐보기**를 통해 전체 가사를 확인할 수 있음 
 
-### 4. 회원가입 페이지  
+## 4. 회원가입 페이지  
 
 ![](../.gitbook/assets/honey-lyrics.web.app_login.png)
 
