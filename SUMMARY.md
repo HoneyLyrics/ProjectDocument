@@ -13,7 +13,8 @@
 ## 구현 세부사항
 
 * [기능 요구사항](undefined/undefined.md)
-* [FrontEnd 구현사항](undefined/frontend.md)
+* [FrontEnd 구현사항](undefined/frontend/README.md)
+  * [기술 스택](undefined/frontend/tech-stack.md)
 * [BackEnd 구현 사항](undefined/backend/README.md)
   * [DB 구조 설계](undefined/backend/db.md)
   * [DB Table 명세](undefined/backend/db-table.md)
