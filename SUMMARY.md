@@ -22,6 +22,6 @@
 
 ## 프로젝트 관리 <a id="undefined-5"></a>
 
-* [프로젝트 관리체계](undefined-5/undefined-3.md)
+* [프로젝트 관리 체계](undefined-5/undefined-3.md)
 * [프로젝트 일정 관리](undefined-5/undefined-4.md)
 
