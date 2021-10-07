@@ -127,7 +127,7 @@ check if login session is lasting 로그인 세션이 유지되고 있는지 확
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Cookie" type="string" required=false %}
-Cook로그인 세션
+Cookie 로그인 세션
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
